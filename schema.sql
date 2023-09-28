@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS posts (
         image TEXT,
         likes INTEGER,
         body TEXT,
-        tags, TEXT,
+        tags TEXT,
         publishDate DATE,
         FOREIGN KEY (userId) REFERENCES users(id)
 );
